@@ -1,25 +1,3 @@
-import 'package:beit_api_accounting_service/api.dart';
-import 'package:beit_app/core/extensions/accounting_document_mobile_dto_extensions.dart';
-import 'package:beit_app/core/extensions/accounting_document_payment_type_enum_extensions.dart';
-import 'package:beit_app/core/extensions/datetime_extensions.dart';
-import 'package:beit_app/core/settings/app_theme.dart';
-import 'package:beit_app/core/widgets/custom_card.dart';
-import 'package:beit_app/core/widgets/custom_loading_indicator.dart';
-import 'package:beit_app/core/widgets/elevated_button_light.dart';
-import 'package:beit_app/core/widgets/show_custom_bottom_sheet.dart';
-import 'package:beit_app/features/payments/providers/payments_detail_provider.dart';
-import 'package:beit_app/features/payments/screens/payment_qr_code_bottom_sheet.dart';
-import 'package:beit_app/features/payments/widgets/accounting_document_card_header.dart';
-import 'package:beit_app/features/payments/widgets/accounting_document_card_attachment.dart';
-import 'package:beit_app/features/payments/widgets/accounting_document_card_items.dart';
-import 'package:beit_app/features/refunds/screens/create_refund_bottom_sheet.dart';
-import 'package:beit_app/gen/assets.gen.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:expandable/expandable.dart';
-import 'package:beit_app/flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
-
 class AccountingDocumentCard extends ConsumerStatefulWidget {
   final AccountingDocumentMobileDTO document;
   final Widget? customHeader;

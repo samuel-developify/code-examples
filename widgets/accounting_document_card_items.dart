@@ -1,18 +1,3 @@
-import 'dart:math';
-
-import 'package:beit_api_accounting_service/api.dart';
-import 'package:beit_app/core/enums/delivery_category_enum.dart';
-import 'package:beit_app/core/extensions/num_extensions.dart';
-import 'package:beit_app/core/settings/app_theme.dart';
-import 'package:beit_app/features/payments/widgets/payments_localized_currency_text.dart';
-import 'package:beit_app/gen/assets.gen.dart';
-import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:expandable/expandable.dart';
-import 'package:beit_app/flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
-
 class AccountingDocumentCardItems extends ConsumerStatefulWidget {
   final List<AccountingDocumentItemDTO> items;
 

@@ -1,17 +1,3 @@
-import 'dart:math';
-
-import 'package:beit_api_accounting_service/api.dart';
-import 'package:beit_app/core/extensions/accounting_document_mobile_dto_extensions.dart';
-import 'package:beit_app/core/extensions/num_extensions.dart';
-import 'package:beit_app/core/providers/default_currency_by_home_account_provider.dart';
-import 'package:beit_app/core/settings/app_theme.dart';
-import 'package:beit_app/features/payments/widgets/payments_localized_currency_text.dart';
-import 'package:beit_app/gen/assets.gen.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:beit_app/flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
-
 class AccountingDocumentCardHeader extends StatelessWidget {
   final AccountingDocumentMobileDTO document;
   final bool showExpandableIcon;

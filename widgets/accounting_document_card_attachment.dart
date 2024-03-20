@@ -1,17 +1,3 @@
-import 'package:beit_api_accounting_service/api.dart';
-import 'package:beit_app/core/extensions/accounting_document_attachment_extensions.dart';
-import 'package:beit_app/core/utils/share_file.dart';
-import 'package:beit_app/core/widgets/attachment_card.dart';
-import 'package:beit_app/core/widgets/show_error_dialog.dart';
-import 'package:beit_app/core/dialogs/show_attachment_actions_dialog.dart';
-import 'package:beit_app/features/payments/providers/payments_attachment_provider.dart';
-import 'package:beit_app/core/screens/attachment_preview_screen.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
-import 'package:go_router/go_router.dart';
-
 class AccountingDocumentCardAttachment extends ConsumerStatefulWidget {
   final AccountingDocumentAttachmentMobileDTO attachment;
 
